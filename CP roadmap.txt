@@ -1,0 +1,130 @@
+Sequence to Proceed in CP:
+
+1. Start with a lot of Pattern Printing problems
+2. Understand and Analyse about the Time Complexity
+3. Practise Linear Search for basic traversal and implementing in Circular Array
+4. Learn Hashing and start doing simple problems.
+5. Start doing Prefix Sum Problems both 1D and 2D.
+6. Sliding Window Technique
+7. Binary Search
+8. GCD of two numbers in log(n) {Euclidean and Etended Euclidean algorithm}
+9. Linear Diphantine Equation
+10. Checking prinmes in Sqrt(n) complexity
+11. Sieve of Eratosthenes
+12. Segmented Seive
+13. Finding Prime Factorisation in log(n) per query
+14. Euler Totient Finction
+15. Fermat Little Theorem
+16. Wilson's Theorem
+
+Number Theory:
+
+1. Finding x^n in log(n)
+2. Modular Arithmetic
+3. Modular Inverse of a number
+4. Modular Exponentiation
+5. Chinese Remainder Theorem
+6. Factorial Modulo mod
+7. Finding nCr and nPr for Queries
+8. Inclusion Exclusion Principle
+
+Algorithms:
+
+1. Start with Basic Sorting Algo's
+2. Practise problems which are constructive and have swapping terms in it
+3. Solve problems related to 2-pointer approach
+4. Bit Manipulation
+5. Power set of a given array or String using Bit manipulation
+6. Number of Subarrays with XOR as zero {it's not an algo}
+7. Problems Related to Greedy Algorithms
+8. Kadane's Algorithm problems
+9. Job Sequencing and Activity Selection problem
+
+10. Recursion:
+	a. Start with basic recursion problems
+	b. Implement Binary Search
+	c. Implement Modular Exponentiation
+	d. Solve problems like: finding subsets with a given sum and simialar problems
+	e. Learn and practice Merge Sort and Quick Sort
+	f. Practice Backtracking like Sudoko and N-queen
+
+11. DP {basic}:
+	a. Memoization Technique
+	b. Converting Recursive code into Iterative code
+	c. Practice standard problems
+
+12. Meet in the Middle Algorithm problems
+13. Divide and Conquer problems
+14. Next Greater Element / Smaller Element using Stack
+15. Parenthesis Problems
+16. Largest Rectangular Area in Histogram {->parent problem}
+17. Problems related to Heap {Priority Queue}
+
+ADVANCED CONCEPTS:
+
+1. Learn Hashing on Strings and Understand the concept of Collision
+2. Rabin Karp Algorithm
+3. prefix Function
+4. KMP Algorithm
+5. Z-Function
+6. Manacher's Algorithm
+
+7. Tree:
+	a. Tree/Graph Representation
+	b. BFS/DFS traversal in Tree/Graph
+	c. Diameter of Tree
+	d. Euler Tour of tree
+	e. Finding LCA using Euler Tour 
+	f. Finding LCA using Binary Lifting
+	g. Distance between two nodes
+	h. Subtree Problems
+
+8. Graph: 
+	a. Connected Components
+	b. Topological Sort
+	c. Cycle Detection in Graph
+	d. Bipartite check in Graph
+	e. SCC using Kosaraju's Algorithm
+	f. Dijkastra's Algorithm
+	g. Bellman Ford Algorithm
+	h. Floyd Warshall Algorithm
+	i. Bridges in Graph
+	j. Articulation Point in Graph
+	k. Minimum Spanning Tree using Kruskal's / Prims Algorithm
+	l. 0/1 BFS
+	m. Finding Bridges online 
+
+9. Advanced DP: 
+	a. Understand how to write recurrence for Digit DP {CodeForces Blog}
+	b. DP with Bitmasks
+	c. DP on Trees
+	d. SOS DP
+Find more and More on DP and Solve as much problems as you can.
+
+10. Disjoint Set:
+	a.Disjoint Set (Using all optimisations)
+	b. Offline Queries using Disjoint Set
+	c. Kruskal's Algo using Disjoint Set
+	d. Practice Problems
+
+11. Sparse Table
+12. Fenwick Tree(Read about Range Update trick also)
+13. Binary Lifting on Fenwick Tree
+Practise Problems on Fenwick Tree
+
+14. Matrix Exponentiation(Problems)
+15. Sqrt Decomposition Technique
+16. Update and query Operations
+17. Mo's Algorithm
+18. Mo's Algorithm on Trees 
+19. Segment Trees(Range Queries and Point Updates)
+20. Lazy propagation on Segment Trees
+
+For Becoming Ultra Pro Max:
+1. Sprague-Grundy Theorem
+2. Flows and Related Problems
+3. Heavy Light Decomposition
+4. Convex Hull Algorithm
+5. FTT/NTT
+
+
