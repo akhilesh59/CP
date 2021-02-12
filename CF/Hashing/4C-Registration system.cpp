@@ -1,35 +1,21 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 
 using namespace std;
-#define ll long long
+
 int main()
 {
-    ll n;
+    int n;
     cin >> n;
-    vector<ll> hash(n + 1);
+    map<string,int> hmap;
 
     while (n--)
     {
-        ll sum = 0, len;
         string s;
         cin >> s;
-        len = s.size();
-        for (int i = 0; i < len; i++)
-        {
-            sum += s[i];
-        }
-        if (hash[sum] > 0)
-        {
-            ll temp = hash[sum];
-            s += to_string(temp);
-            cout << s << endl;
-            hash[sum] += 1;
-        }
-        else
-        {
-            hash[sum] = 1;
-            cout << "OK" << endl;
-        }
+        
+        if(hmap[s] == 0) cout<<"OK"<<endl;
+        else cout<<s<<hmap[s]<<endl;
+        hmap[s]++;
     }
 
     return 0;
