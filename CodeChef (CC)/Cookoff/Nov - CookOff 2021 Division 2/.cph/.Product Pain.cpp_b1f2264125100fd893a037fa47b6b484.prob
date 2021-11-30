@@ -1,0 +1,1 @@
+{"name":"Local: Product Pain","url":"c:\\Users\\Akhilesh Singh\\Desktop\\Nov - CookOff\\Product Pain.cpp","tests":[{"id":1637514535369,"input":"2\n4\n1 2 3 4\n5\n1 42 69 228 2021 \n","output":"4\n1041808\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Akhilesh Singh\\Desktop\\Nov - CookOff\\Product Pain.cpp","group":"local","local":true}

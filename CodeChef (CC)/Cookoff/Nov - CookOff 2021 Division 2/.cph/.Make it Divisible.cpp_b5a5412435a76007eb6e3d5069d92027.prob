@@ -1,0 +1,1 @@
+{"name":"Local: Make it Divisible","url":"c:\\Users\\Akhilesh Singh\\Desktop\\Nov - CookOff\\Make it Divisible.cpp","tests":[{"id":1637510087584,"input":"3\n3\n1 2 3\n4\n6 3 9 12\n2\n4 3\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\Akhilesh Singh\\Desktop\\Nov - CookOff\\Make it Divisible.cpp","group":"local","local":true}
