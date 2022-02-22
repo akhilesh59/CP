@@ -3,7 +3,7 @@
     User Handle : akhilesh59
     Disclaimer : Please do not copy my code, it will lead to Plagarism.
 
-    Status : 
+    Status : Accepted (Upsolve)
 
     'Abe Padhai likhai pe dhyaan do, IAS-YAS bano aur desh ko sambhalo. Lekin nhi, tumko to SDE banna hai!'
 */
@@ -107,6 +107,20 @@ ll binpow(ll a, ll b, ll m) {a %= m; ll res = 1; while (b > 0) {if (b & 1) res =
 void sol()
 {
     ll n; cin >> n;
+    string s; cin >> s;
+
+    vl v(n);
+    v[0] = 0;
+    
+    if(s[0] == '0' || s[1] == '0' || s[n] == '0') return void(cout<<"No\n");
+
+    for(int i=1; i<n; i++) {
+        v[i] = i;
+        if(s[i] == '0') swap(v[i],v[i-1]);
+    }
+
+    cout<<"Yes\n";
+    cout<<v<<'\n';
         
 }
 

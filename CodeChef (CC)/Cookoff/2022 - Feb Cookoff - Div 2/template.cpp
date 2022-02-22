@@ -3,8 +3,6 @@
     User Handle : akhilesh59
     Disclaimer : Please do not copy my code, it will lead to Plagarism.
 
-    Status : 
-
     'Abe Padhai likhai pe dhyaan do, IAS-YAS bano aur desh ko sambhalo. Lekin nhi, tumko to SDE banna hai!'
 */
 

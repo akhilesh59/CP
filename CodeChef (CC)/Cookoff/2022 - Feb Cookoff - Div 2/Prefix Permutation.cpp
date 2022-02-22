@@ -3,7 +3,7 @@
     User Handle : akhilesh59
     Disclaimer : Please do not copy my code, it will lead to Plagarism.
 
-    Status : 
+    Status : Accepted 
 
     'Abe Padhai likhai pe dhyaan do, IAS-YAS bano aur desh ko sambhalo. Lekin nhi, tumko to SDE banna hai!'
 */
@@ -106,7 +106,15 @@ ll binpow(ll a, ll b, ll m) {a %= m; ll res = 1; while (b > 0) {if (b & 1) res =
 
 void sol()
 {
-    ll n; cin >> n;
+    ll n,k; cin >> n >> k;
+    vl v(k); cin >> v;
+
+    vl ans;
+    for(auto i : v) {
+        ll l = i;
+        while(ans.size() != i) ans.pb(l), l--;
+    }
+    cout<<ans<<'\n';
         
 }
 
