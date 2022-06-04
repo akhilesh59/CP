@@ -103,7 +103,7 @@ ll binpow(ll a, ll b, ll m) {a %= m; ll res = 1; while (b > 0) {if (b & 1) res =
 #define         mpll map<ll, ll>
 #define         umpsl unordered_map<string, ll>
 #define         mkpr make_pair
-#define         forl(s,e,f) for (ll i = s; i < e; i+=f)
+#define         forl(s,e,f) for (ll i = s; i < n; i+=f)
 #define         pb push_back
 #define         complete(v) v.begin(), v.end()
 #define         itr_v for (auto it = v.begin(); it != v.end; it++)
@@ -111,8 +111,6 @@ ll binpow(ll a, ll b, ll m) {a %= m; ll res = 1; while (b > 0) {if (b & 1) res =
 #define         sort_dec(v) sort(v.begin(), v.end(), greater<int>())
 #define         accu(v) accumulate(v.begin(), v.end(), 0LL)
 #define         accu_range(v,x,y) accumulate(v.begin()+x, v.end()-y, 0LL)
-#define         print(x) cout<<x<<'\n'
-#define         print2(x,y) cout<<x<<' '<<y<<'\n'
 #define         deb(x) cout << #x << "=" << x << endl
 #define         deb2(x, y) cout << #x << "=" << x << "," << #y << "=" << y << endl
 
@@ -123,6 +121,20 @@ ll binpow(ll a, ll b, ll m) {a %= m; ll res = 1; while (b > 0) {if (b & 1) res =
 void sol()
 {
     ll n; cin >> n;
+    vl v(n); cin >> v;
+
+    ll e = 0, o = 0;
+
+    forl(0,n,1) {
+        if(v[i]%2 == 0) e++;
+        else o++;
+    }
+
+    ll cnt = min(e,o);
+
+    
+
+    cout<<cnt<<'\n';
         
 }
 

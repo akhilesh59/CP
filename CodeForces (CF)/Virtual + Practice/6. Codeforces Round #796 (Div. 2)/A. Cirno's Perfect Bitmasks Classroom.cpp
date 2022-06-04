@@ -123,6 +123,20 @@ ll binpow(ll a, ll b, ll m) {a %= m; ll res = 1; while (b > 0) {if (b & 1) res =
 void sol()
 {
     ll n; cin >> n;
+    ll mask = 0, i=0;
+    
+    if(n == 1) return void(print(3));
+
+    for(i=0; i<=30; i++) {
+        mask = (1<<i);
+        if(mask & n) break;
+    }
+
+    if(i > 0) {
+        if((((n ^ mask) == 0) && ((n&1) == 0))) mask |= 1;
+    }
+    
+    print(mask);
         
 }
 

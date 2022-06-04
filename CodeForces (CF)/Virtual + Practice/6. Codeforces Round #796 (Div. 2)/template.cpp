@@ -111,8 +111,8 @@ ll binpow(ll a, ll b, ll m) {a %= m; ll res = 1; while (b > 0) {if (b & 1) res =
 #define         sort_dec(v) sort(v.begin(), v.end(), greater<int>())
 #define         accu(v) accumulate(v.begin(), v.end(), 0LL)
 #define         accu_range(v,x,y) accumulate(v.begin()+x, v.end()-y, 0LL)
-#define         print(x) cout<<x<<'\n'
-#define         print2(x,y) cout<<x<<' '<<y<<'\n'
+#define         print(x) cout<<x<<'\n';
+#define         print2(x,y) cout<<x<<' '<<y<<'\n';
 #define         deb(x) cout << #x << "=" << x << endl
 #define         deb2(x, y) cout << #x << "=" << x << "," << #y << "=" << y << endl
 

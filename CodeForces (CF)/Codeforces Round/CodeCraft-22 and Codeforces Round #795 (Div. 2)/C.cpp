@@ -111,8 +111,6 @@ ll binpow(ll a, ll b, ll m) {a %= m; ll res = 1; while (b > 0) {if (b & 1) res =
 #define         sort_dec(v) sort(v.begin(), v.end(), greater<int>())
 #define         accu(v) accumulate(v.begin(), v.end(), 0LL)
 #define         accu_range(v,x,y) accumulate(v.begin()+x, v.end()-y, 0LL)
-#define         print(x) cout<<x<<'\n'
-#define         print2(x,y) cout<<x<<' '<<y<<'\n'
 #define         deb(x) cout << #x << "=" << x << endl
 #define         deb2(x, y) cout << #x << "=" << x << "," << #y << "=" << y << endl
 
@@ -120,9 +118,55 @@ ll binpow(ll a, ll b, ll m) {a %= m; ll res = 1; while (b > 0) {if (b & 1) res =
 
 /*----------------------------- And My code Begins ---------------------------*/
 
+ll num(string s) {
+    stringstream ss(s);
+    ll n = 0;
+    ss >> n;
+    return n;
+}
+
 void sol()
 {
-    ll n; cin >> n;
+    ll n,k; cin >> n >> k;
+    string s; cin >> s;
+
+    ll ones = 0;
+    for(char ch : s) if(ch == '1') ones++;
+
+    ll fo=-1,lo=-1, ans=0;
+
+    if(k > 0) {
+        forl(0,n,1) {
+            if(s[i] == '1') {
+                if(fo == -1) fo = i;
+                lo = i;
+            }
+        }
+
+        if(ones > 0 && k-(n-lo-1) >= 0) {
+            k -= (n-lo-1);
+            ones--;
+            swap(s[n-1], s[lo]);
+        }
+
+        if(ones > 0 && k - fo >= 0) {
+            k -= fo;
+            ones--;
+            swap(s[0], s[fo]);
+        }
+    }
+
+    // deb(s);
+
+    forl(0,n-1,1) {
+        string x = s.substr(i,2);
+        ll val = num(x);
+        // deb(i);
+        // deb2(x,val);
+        ans += val;
+    }
+
+    cout<<ans<<'\n';
         
 }
 
