@@ -55,7 +55,5 @@ public:
             par[pv] = pu;
             size[pu] += size[pv];
         }
-    }
-
-        
+    }        
 };
