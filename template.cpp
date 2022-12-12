@@ -1,15 +1,14 @@
 /*
     ------------------------------------------- Author : Akhilesh Singh --------------------------------------
     User Handle : akhilesh59
-    Disclaimer : Please do not copy my code, it will lead to Plagarism.
-
-    'Abe Padhai likhai pe dhyaan do, IAS-YAS bano aur desh ko sambhalo'
+    
+    "Ek hi naara, Ek hi naam : Jai Shree Ram - Jai Shree Ram"
 */
 
 #include <bits/stdc++.h>
-// #include <sys/resource.h>
-// #include <ext/pb_ds/assoc_container.hpp>
-// #include <ext/pb_ds/tree_policy.hpp>
+    // #include <sys/resource.h>
+    // #include <ext/pb_ds/assoc_container.hpp>
+    // #include <ext/pb_ds/tree_policy.hpp>
 
 using namespace std;
 // using namespace __gnu_pbds;
@@ -96,25 +95,29 @@ ll binpow(ll a, ll b, ll m) {a %= m; ll res = 1; while (b > 0) {if (b & 1) res =
 
 //------------------------------------------------------- Macros -----------------------------------------
 
-#define         F first
-#define         S second
-#define         vl vector<ll>
-#define         umpll unordered_map<ll, ll>
-#define         mpll map<ll, ll>
-#define         umpsl unordered_map<string, ll>
-#define         mkpr make_pair
-#define         forl(s,e,f) for (ll i = s; i < e; i+=f)
-#define         pb push_back
-#define         complete(v) v.begin(), v.end()
-#define         itr_v for (auto it = v.begin(); it != v.end; it++)
-#define         sort_asc(v) sort(v.begin(), v.end())
-#define         sort_dec(v) sort(v.begin(), v.end(), greater<int>())
-#define         accu(v) accumulate(v.begin(), v.end(), 0LL)
-#define         accu_range(v,x,y) accumulate(v.begin()+x, v.end()-y, 0LL)
-#define         print(x) cout<<x<<'\n'
-#define         print2(x,y) cout<<x<<' '<<y<<'\n'
-#define         deb(x) cout << #x << "=" << x << endl
-#define         deb2(x, y) cout << #x << "=" << x << "," << #y << "=" << y << endl
+#define         F                       first
+#define         S                       second
+#define         pb                      push_back
+#define         vl                      vector<ll>
+#define         mpll                    map<ll, ll>
+#define         umpll                   unordered_map<ll, ll>
+#define         umpsl                   unordered_map<string, ll>
+#define         mkpr                    make_pair
+#define         complete(v)             v.begin(), v.end()
+#define         forl(s,e,f)             for (ll i = s; i < e; i+=f)
+#define         itr_v                   for(auto it = v.begin(); it != v.end; it++)
+#define         sort_asc(v)             sort(v.begin(), v.end())
+#define         sort_dec(v)             sort(v.begin(), v.end(), greater<int>())
+#define         mine(a)                 (*min_element((a).begin(), (a).end()))
+#define         maxe(a)                 (*max_element((a).begin(), (a).end()))
+#define         accu(v)                 accumulate(v.begin(), v.end(), 0LL)
+#define         accu_range(v,x,y)       accumulate(v.begin()+x, v.end()-y, 0LL)
+#define         lowb(a, x)              (lower_bound((a).begin(), (a).end(), (x)) - (a).begin())
+#define         uppb(a, x)              (upper_bound((a).begin(), (a).end(), (x)) - (a).begin())
+#define         print(x)                cout<<x<<'\n';
+#define         print2(x,y)             cout<<x<<' '<<y<<'\n';
+#define         deb(x)                  cout << #x << "=" << x << endl
+#define         deb2(x, y)              cout << #x << "=" << x << "," << #y << "=" << y << endl
 
 /*----------------------------------------------------------------------------------------------------------------*/
 
